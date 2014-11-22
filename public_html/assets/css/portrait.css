@@ -1,0 +1,15 @@
+	@charset "utf-8";
+
+@media screen and (min-width: 569px) and (max-width: 768px) {
+    
+#wrap_all{
+	background: #fff;
+    width: 1080px;
+    overflow: hidden;
+}
+.contents_wd{
+	width: 980px;
+	margin: 0 auto;
+}
+
+}

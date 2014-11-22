@@ -1,0 +1,24 @@
+@media screen and (max-width: 320px) {
+    body {
+    	-webkit-text-size-adjust: 100%;
+        width: 100%;
+    }
+    #wrap_all {
+        border-top: 5px solid #ff7904;
+    	width: 100%;
+        overflow: hidden;
+    }
+    #header_inner_one{
+        padding-left: 15% !important;
+    }
+    #header_inner_two{
+        padding-left: 17% !important;        
+    }
+    .sub_section span{
+        width: 100% !important;
+        display: block !important;
+    }
+    img {
+    	width: 100%;
+    }
+}
