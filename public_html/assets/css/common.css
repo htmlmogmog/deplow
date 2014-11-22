@@ -228,14 +228,130 @@ a{
 	line-height: 1.2em;
 }
 
+/*step1
+---------------------------------*/
+#step1 .content_title{
+	background-image: url("../img/bg_title_red.png");
+	padding: 30px 0px;
+}
+#step1 .content_title h3{
+	text-align: center;
+	font-size: 20px;
+	color: #FFF;
+	font-weight: bold;
+}
+#step1 .content_title h2{
+	text-align: center;
+	font-size: 30px;
+	color: #FFF;
+	font-weight: bold;
+}
+#step1 .content_title h2{
+	text-align: center;
+	font-size: 30px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#step1 .content {
+	width: 980px;
+	margin: 0 auto;
+	padding: 40px 0px 60px 0px;
+}
+
+#step1 .content .text{
+	font-size: 18px;
+	color:#333;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#step1 .content img{
+	display: block;
+	margin: 0 auto;
+}
+
+/*step2
+---------------------------------*/
+#step2 .content_title{
+	background-image: url("../img/bg_title_red.png");
+	padding: 30px 0px;
+}
+#step2 .content_title h3{
+	text-align: center;
+	font-size: 20px;
+	color: #FFF;
+	font-weight: bold;
+}
+#step2 .content_title h2{
+	text-align: center;
+	font-size: 30px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#step2 .content {
+	width: 980px;
+	margin: 0 auto;
+	padding: 40px 0px 60px 0px;
+}
+
+#step2 .content .text{
+	font-size: 18px;
+	color:#333;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#step2 .content img{
+	display: block;
+	margin: 0 auto;
+}
+
+#step2 .content_three{
+	background-color: #DDD;
+}
+#step2 .content_three:after{
+	clear: both;
+}
+#step2 .content_three .inner{
+	width: 980px;
+	margin: 0 auto;
+	height: 260px;
+	padding: 40px 0px 60px 0px;
+}
+#step2 .item_three{
+	width: 33%;
+	float: left;
+}
+
+#step2 .item_h1{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#step2 img{
+	display: block;
+	margin: 0 auto;
+}
+#step2 .item_text{
+	font-size: 16px;
+	text-align: center;
+	margin: 10px;
+
+}
+
+
 /*見出しメニュー
 --------------------------------*/
 
 #section_nav{
 	width: 980px;
 	margin: 0 auto;
+	height: 170px;
 }
-
+#section_nav:after{
+	clear: both;
+}
 #section_nav .fl_left{
 	width: 45%;
 	margin-top: 30px;
@@ -302,8 +418,15 @@ a{
 	font-size: 25px;
 	color: #444;
 }
+#section_nav span{
+	margin-left: 270px;
+}
 
-#section_nav .section_text{
+#section_nav_text{
+	width: 980px;
+	margin: 0 auto;
+}
+#section_nav_text .section_text{
 	font-size: 18px;
 	text-align: center;
 	padding-top: 30px;
@@ -311,75 +434,12 @@ a{
 	color: #333;
 	padding-bottom: 30px;
 }
-#section_nav .section_text img{
+#section_nav_text .section_text img{
 	display: block;
 	margin: 0 auto;
 	padding-top: 0px;
 	padding-bottom: 20px;
 }
-
-
-/*ステップ1
---------------------------------*/
-#step1{
-
-}
-
-#step1 .content_title{
-	background-image: url("../img/bg_title_red.png");
-	padding: 30px 0px;
-}
-#step1 .content_title h3{
-	text-align: center;
-	font-size: 20px;
-	color: #FFF;
-	font-weight: bold;
-}
-#step1 .content_title h2{
-	text-align: center;
-	font-size: 30px;
-	color: #FFF;
-	font-weight: bold;
-}
-#step1 .content_title h2{
-	text-align: center;
-	font-size: 30px;
-	color: #FFF;
-	font-weight: bold;
-}
-#step1 .content{
-	height: 500px;
-}
-
-
-
-
-/*ステップ2
---------------------------------*/
-#step2{
-
-}
-
-#step2 .content_title{
-	background-image: url("../img/bg_title_red.png");
-	padding: 30px 0px;
-}
-#step2 .content_title h3{
-	text-align: center;
-	font-size: 20px;
-	color: #FFF;
-	font-weight: bold;
-}
-#step2 .content_title h2{
-	text-align: center;
-	font-size: 30px;
-	color: #FFF;
-	font-weight: bold;
-}
-#step2 .content{
-	height: 500px;
-}
-
 
 
 
@@ -461,7 +521,7 @@ a{
 	border-top: 1px solid #ddd;	
 }
 #price .price_num td:nth-child(1){
-	background-color: #B5B5B6;
+	background-color: #A51F27;
 }
 #price .price_num td:nth-child(2){
 	background-color: #898989;
