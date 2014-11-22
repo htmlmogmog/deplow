@@ -6,7 +6,7 @@
 <title>デプロイ自動化サービス「Deplow」</title>
 <meta name="keywords" content="">
 <meta name="description" content="今ある手順書をそのまま自動化！国内初のデプロイ自動化サービス「Deplow-でぷろう-」">
-<!-- ?php
+<?php
 if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
 // Android用
 	echo ('<meta name="viewport" content="target-densitydpi=device-dpi,width=device-width,initial-scale=1" />
@@ -22,7 +22,7 @@ if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
 	echo('<meta name="viewport" content="width=device-width,initial-scale=1" />
 	');
 }
-?>-->  
+?>
 <link rel="stylesheet" href="./assets/css/reset.css">
 <link rel="stylesheet" href="./assets/css/common.css" media="screen, print">
 <link rel="stylesheet" href="./assets/css/lightbox.css">
@@ -33,11 +33,7 @@ if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
 <script type="text/javascript" src="assets/js/jquery.mobile-1.4.2.js"></script>
 <script type="text/javascript" src="assets/js/lightbox.js"></script>
 <script type="text/javascript" src="assets/js/jquery.clickSubMenu.js"></script>
-<!--<script type="text/javascript" src="assets/js/jquery.clickOpen.js"></script>
-<script type="text/javascript" src="assets/js/jquery.SectionTop.js"></script>-->
 <script type="text/javascript" src="assets/js/jquery.PageTop.js"></script>
-<!-- <script type="text/javascript" src="assets/js/waypoints.js"></script>
-<script type="text/javascript" src="assets/js/jquery.Menu.js"></script>-->
 
 <!--
 <script type="text/javascript">
