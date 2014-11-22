@@ -4,8 +4,12 @@
 <meta charset="utf-8">
 <meta http-equiv="Content-Language" content="ja">
 <title>デプロイ自動化サービス「Deplow」</title>
-<meta name="keywords" content="">
-<meta name="description" content="今ある手順書をそのまま自動化！国内初のデプロイ自動化サービス「Deplow-でぷろう-」">
+<meta property="og:title" content="デプロイ自動化サービス「Deplow」">
+<meta property="og:type" content="website">
+<meta property="og:description" content="今ある手順書をそのまま自動化！国内初のデプロイ自動化サービス「Deplow-でぷろう-」">
+<meta property="og:url" content="http://deplow.jp/">
+<meta property="og:image" content="http://deplow.jp/asset/img/deplow_logo.png">
+<meta property="og:site_name" content="Web App Deplow">
 <?php
 if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
 // Android用
