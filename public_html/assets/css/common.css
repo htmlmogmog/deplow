@@ -154,7 +154,7 @@ a{
     padding-left: 60px;
 }
 #top_view_sub_title .text{
-	padding: 15px 0 15px;
+	padding: 0px 0 15px;
 	color: #A51F27;
 	font-size: 18px;
 	line-height: 1;
@@ -164,8 +164,9 @@ a{
     padding-right: 90px;
 }
 #top_view_sub_title .text div{
-	font-size: 25px;
-	line-height: 1.4em;
+	font-size: 18px;
+	line-height: 1.2em;
+	color: #252E33;
 }
 #top_view_sub_title .text img{
 	display: inline;
@@ -176,7 +177,7 @@ a{
 #top_view_sub_title .spring{
 	float: right;
 	margin-top: -70px;
-	margin-bottom: -50px;
+	margin-bottom: -60px;
 	margin-right: 30px;
 }
 #top_view_sub_title .spring img {
@@ -184,13 +185,17 @@ a{
 }
 
 .top_view_title{
-	padding: 60px 0px 13px;
+	padding: 20px 0px 20px;
 	margin-bottom: 40px;
 	position: relative;
 }
 .top_view_title h2{
-	width: 700px;
-	margin: 0 auto;
+	width: 890px;
+	margin: 0px auto;
+	font-size: 50px;
+	color: #252E33;
+	font-weight: bold;
+	text-align: center;
 }
 
 .top_view_title h2 img,
@@ -223,10 +228,10 @@ a{
 #section1 .content_title{
 	background-color: #A51F27;
 	color: #FFF;
-	font-size: 30px;
+	font-size: 40px;
 	text-align: center;
-	padding: 30px;
-	font-weight: 600;
+	padding: 40px;
+	font-weight: 500;
 	line-height: 1.2em;
 }
 
@@ -421,7 +426,7 @@ a{
 	color: #444;
 }
 #section_nav span{
-	margin-left: 270px;
+	margin-left: 180px;
 }
 
 #section_nav_text{
@@ -742,6 +747,9 @@ a{
 	text-decoration: none;
 }
 
+#footer #outlink li a img {
+	vertical-align: middle;
+}
 
 .tooltips{
 	display: inline;

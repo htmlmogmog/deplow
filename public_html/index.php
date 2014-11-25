@@ -60,7 +60,7 @@ if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
 		<div id="header_inner_one" class="header_inner contents_wd">
 			<h1 class="clearfix fl_left">
 				<div id="brand_logo" class="fl_left">
-					<a href="./index.html"><img src="assets/img/logo_brand.png" alt="NIFTY Cloud C4SA ENTERPRISE"></a>
+					<a href="./index.php"><img src="assets/img/logo_brand.png" alt="Deplow"></a>
 				</div>
 			</h1>
 		    <div id="h_menu" class="fl_right">
@@ -76,7 +76,7 @@ if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
 		<div id="top_view_inner">
             <div id="top_view_title" class="contents_wd top_view_title">
                 <h2>
-                    <img src="assets/img/title_topview_v2.png" alt="そろそろデプロイさぼりませんか？">
+                    そろそろデプロイさぼりませんか？
                 </h2>
             </div>
             <div id="top_view_sub_title">
@@ -85,8 +85,8 @@ if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
             	</div>
             	<div class="window"><img src="assets/img/bg_topview_window.png" alt="Deplow-でぷろう-"></div>
             	<div class="text">
-            		<div>ベンダーを選ばない<br>国内初のデプロイ自動化サービス</div>
             		<img src="assets/img/deplow_logo.png" alt="Deplow-でぷろう-">
+            		<div>ベンダーを選ばない国内初の<br>デプロイ自動化サービス</div>
             	</div>
             </div>
 		</div>
@@ -102,7 +102,7 @@ if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
 				<h3>ステップ1</h3>
 				<h2>手順書の自動化</h2>
 			</a>
-			<span>※自動化のオプションあり</span>
+			<span>※自動化のオプションサービスあります</span>
 		</div>
 		<div class="fl_left_add">
 			<h2>+</h2>
@@ -146,7 +146,7 @@ if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
 				<div class="item_three">
 					<div class="item_h1">タイマー機能</div>
 					<div class="item_image"><img src="assets/img/step_2_1.png"></div>
-					<div class="item_text">時間を指定し、<br>定期的な実行ができます</div>
+					<div class="item_text">時間を指定し、予約<br>定期的な実行ができます</div>
 				</div>
 				<div class="item_three">
 					<div class="item_h1">他ツールとの連携</div>
@@ -218,7 +218,7 @@ if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
 				<a href="http://realglobe.jp/" target="blank">株式会社リアルグローブ</a>
 			</li>
 			<li>
-				<a href="/index.html" target="blank">Deplow</a>
+				<a href="./index.php" target="blank"><img src="assets/img/footer_deplow.png" alt="Deplow"></a>
 			</li>
 		</ul>
 		<address>© 2014 REALGLOBE Inc. All Rights Reserved.</address>
