@@ -76,7 +76,6 @@ a{
 	display: inline-block;
 	/*width: 70px;*/
 	height: 21px;
-	padding: 27px 60px 0px 0px;
 	text-decoration: none;
 	background: none;
 	color: #ddd;
@@ -85,16 +84,19 @@ a{
 	display: inline-block;
 	/*width: 70px;*/
 	height: 21px;
-	padding: 27px 60px 0px 0px;
 	text-decoration: none;
 	background: none;
 	color: #ddd;
 }
 .h_section_one a{
 	color: #ccc;
+	padding: 26px 60px 26px 0px;
+	display: block;
 }
 .h_section_two a{
 	color: #ccc;
+	padding: 26px 60px 26px 0px;
+	display: block;
 }
 .h_section_one a:hover{
 	color: #A51F27;
