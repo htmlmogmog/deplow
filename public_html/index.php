@@ -8,7 +8,7 @@
 <meta property="og:type" content="website">
 <meta property="og:description" content="今ある手順書をそのまま自動化！国内初のデプロイ自動化サービス「Deplow-でぷろう-」">
 <meta property="og:url" content="http://deplow.jp/">
-<meta property="og:image" content="http://deplow.jp/asset/img/deplow_logo.png">
+<meta property="og:image" content="http://deplow.jp/deplow_logo.png">
 <meta property="og:site_name" content="Web App Deplow">
 <?php
 if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
@@ -32,27 +32,13 @@ if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
 <link rel="stylesheet" href="./assets/css/lightbox.css">
 <link rel="stylesheet" media="all and (orientation:portrait)" href="./assets/css/portrait.css">
 <link rel="stylesheet" media="all and (orientation:landscape)" href="./assets/css/landscape.css">
-<!--<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 1.5)" type="text/css" href="iphone.css" />-->
+<link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 1.5)" type="text/css" href="iphone.css" />
 <script type="text/javascript" src="assets/js/jquery-1.11.1.js"></script>
 <script type="text/javascript" src="assets/js/jquery.mobile-1.4.2.js"></script>
 <script type="text/javascript" src="assets/js/lightbox.js"></script>
 <script type="text/javascript" src="assets/js/jquery.clickSubMenu.js"></script>
 <script type="text/javascript" src="assets/js/jquery.PageTop.js"></script>
 
-<!--
-<script type="text/javascript">
-	$(function(){
-		$('.scroll').on('click', function(e){
-			e.preventDefault();
-			var url = this.href;
-			var parts = url.split('#');
-			var target = parts[1];
-			var target_offset = $('#'+target).offset();
-			var target_top = target_offset.top;
-			$('html, body').animate({scrollTop:target_top}, 1000);
-		});
-	});
-</script>-->
 </head>
 <body>
 <div id="wrap_all">
