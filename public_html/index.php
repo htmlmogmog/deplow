@@ -146,7 +146,7 @@ if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
 				<div class="item_three">
 					<div class="item_h1">タイマー機能</div>
 					<div class="item_image"><img src="assets/img/step_2_1.png"></div>
-					<div class="item_text">時間を指定し、予約<br>定期的な実行ができます</div>
+					<div class="item_text">時間を指定し、予約・<br>定期的な実行ができます</div>
 				</div>
 				<div class="item_three">
 					<div class="item_h1">他ツールとの連携</div>
@@ -156,7 +156,7 @@ if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
 				<div class="item_three">
 					<div class="item_h1">権限管理機能</div>
 					<div class="item_image"><img src="assets/img/step_2_3.png"></div>
-					<div class="item_text">操作可能なメンバーを<br>管理できます。</div>
+					<div class="item_text">操作や閲覧権限を<br>メンバーごとに管理できます。</div>
 				</div>
 			</div>	
 		</div>
