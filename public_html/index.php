@@ -8,7 +8,7 @@
 <meta property="og:type" content="website">
 <meta property="og:description" content="今ある手順書をそのまま自動化！国内初のデプロイ自動化サービス「Deplow-でぷろう-」">
 <meta property="og:url" content="http://deplow.jp/">
-<meta property="og:image" content="http://deplow.jp/deplow_logo.png">
+<meta property="og:image" content="http://deplow.jp/deplow_logo.jpg">
 <meta property="og:site_name" content="Web App Deplow">
 <?php
 if (preg_match('/Android/',$_SERVER['HTTP_USER_AGENT'])) {
