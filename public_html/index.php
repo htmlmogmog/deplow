@@ -6,6 +6,7 @@
 <title>デプロイ自動化サービス「Deplow」</title>
 <meta property="og:title" content="デプロイ自動化サービス「Deplow」">
 <meta property="og:type" content="website">
+<meta name="keywords" content="deploy,デプロイ,deplow,でぷろう,Deplow,手順書,自動化,DevOps">
 <meta property="og:description" content="今ある手順書をそのまま自動化！国内初のデプロイ自動化サービス「Deplow-でぷろう-」">
 <meta property="og:url" content="http://deplow.jp/">
 <meta property="og:image" content="http://deplow.jp/deplow_logo.png">
